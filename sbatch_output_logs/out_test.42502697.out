@@ -1,0 +1,299 @@
+-----------------------------------
+-----------------------------------
+Number of npz files to read: 82
+-----------------------------------
+Read file: S100e-12_H70_T-23_data_train.npy.npz
+Read file: S100e-12_H70_T-24_data_train.npy.npz
+Read file: S100e-12_H70_T-25_data_train.npy.npz
+Read file: S100e-12_H80_T-23_data_train.npy.npz
+Read file: S100e-12_H80_T-24_data_train.npy.npz
+Read file: S100e-12_H80_T-25_data_train.npy.npz
+Read file: S100e-12_H90_T-23_data_train.npy.npz
+Read file: S100e-12_H90_T-24_data_train.npy.npz
+Read file: S100e-12_H90_T-25_data_train.npy.npz
+Read file: S1500e-12_H280_T-15_data_train.npy.npz
+Read file: S1500e-12_H280_T-16_data_train.npy.npz
+Read file: S1500e-12_H280_T-17_data_train.npy.npz
+Read file: S1500e-12_H280_T-18_data_train.npy.npz
+Read file: S1500e-12_H290_T-15_data_train.npy.npz
+Read file: S1500e-12_H290_T-16_data_train.npy.npz
+Read file: S1500e-12_H290_T-17_data_train.npy.npz
+Read file: S1500e-12_H290_T-18_data_train.npy.npz
+Read file: S1500e-12_H300_T-15_data_train.npy.npz
+Read file: S1500e-12_H300_T-16_data_train.npy.npz
+Read file: S1500e-12_H300_T-17_data_train.npy.npz
+Read file: S1500e-12_H300_T-18_data_train.npy.npz
+Read file: S1500e-12_H310_T-15_data_train.npy.npz
+Read file: S1500e-12_H310_T-16_data_train.npy.npz
+Read file: S1500e-12_H310_T-17_data_train.npy.npz
+Read file: S1500e-12_H310_T-18_data_train.npy.npz
+Read file: S1500e-12_H320_T-15_data_train.npy.npz
+Read file: S1500e-12_H320_T-16_data_train.npy.npz
+Read file: S1500e-12_H320_T-17_data_train.npy.npz
+Read file: S1500e-12_H320_T-18_data_train.npy.npz
+Read file: S1500e-12_H330_T-15_data_train.npy.npz
+Read file: S1500e-12_H330_T-16_data_train.npy.npz
+Read file: S1500e-12_H330_T-17_data_train.npy.npz
+Read file: S1500e-12_H330_T-18_data_train.npy.npz
+Read file: S1e-12_H1_T-25_data_train.npy.npz
+Read file: S1e-12_H1_T-26_data_train.npy.npz
+Read file: S200e-12_H100_T-22_data_train.npy.npz
+Read file: S200e-12_H100_T-23_data_train.npy.npz
+Read file: S200e-12_H100_T-24_data_train.npy.npz
+Read file: S200e-12_H100_T-25_data_train.npy.npz
+Read file: S200e-12_H110_T-22_data_train.npy.npz
+Read file: S200e-12_H110_T-23_data_train.npy.npz
+Read file: S200e-12_H110_T-24_data_train.npy.npz
+Read file: S200e-12_H110_T-25_data_train.npy.npz
+Read file: S200e-12_H120_T-22_data_train.npy.npz
+Read file: S200e-12_H120_T-23_data_train.npy.npz
+Read file: S200e-12_H120_T-24_data_train.npy.npz
+Read file: S200e-12_H120_T-25_data_train.npy.npz
+Read file: S200e-12_H130_T-22_data_train.npy.npz
+Read file: S200e-12_H130_T-23_data_train.npy.npz
+Read file: S200e-12_H130_T-24_data_train.npy.npz
+Read file: S200e-12_H130_T-25_data_train.npy.npz
+Read file: S200e-12_H80_T-22_data_train.npy.npz
+Read file: S200e-12_H80_T-23_data_train.npy.npz
+Read file: S200e-12_H80_T-24_data_train.npy.npz
+Read file: S200e-12_H80_T-25_data_train.npy.npz
+Read file: S200e-12_H90_T-22_data_train.npy.npz
+Read file: S200e-12_H90_T-23_data_train.npy.npz
+Read file: S200e-12_H90_T-24_data_train.npy.npz
+Read file: S200e-12_H90_T-25_data_train.npy.npz
+Read file: S20e-12_H20_T-25_data_train.npy.npz
+Read file: S20e-12_H20_T-26_data_train.npy.npz
+Read file: S500e-12_H160_T-20_data_train.npy.npz
+Read file: S500e-12_H160_T-21_data_train.npy.npz
+Read file: S500e-12_H160_T-22_data_train.npy.npz
+Read file: S500e-12_H170_T-20_data_train.npy.npz
+Read file: S500e-12_H170_T-21_data_train.npy.npz
+Read file: S500e-12_H170_T-22_data_train.npy.npz
+Read file: S500e-12_H180_T-20_data_train.npy.npz
+Read file: S500e-12_H180_T-21_data_train.npy.npz
+Read file: S500e-12_H180_T-22_data_train.npy.npz
+Read file: S500e-12_H190_T-20_data_train.npy.npz
+Read file: S500e-12_H190_T-21_data_train.npy.npz
+Read file: S500e-12_H190_T-22_data_train.npy.npz
+Read file: S70e-12_H50_T-24_data_train.npy.npz
+Read file: S70e-12_H50_T-25_data_train.npy.npz
+Read file: S70e-12_H50_T-26_data_train.npy.npz
+Read file: S70e-12_H60_T-24_data_train.npy.npz
+Read file: S70e-12_H60_T-25_data_train.npy.npz
+Read file: S70e-12_H60_T-26_data_train.npy.npz
+Read file: S70e-12_H70_T-24_data_train.npy.npz
+Read file: S70e-12_H70_T-25_data_train.npy.npz
+Read file: S70e-12_H70_T-26_data_train.npy.npz
+Done reading all data
+-----------------------------------
+Done shuffling all data
+Split train and test sets at a ratio of 0.8
+Known data size: train(4, 128, 128, 1574)
+                 test(4, 128, 128, 394)
+Prediction data size: train(4, 128, 128, 1574)
+                      test(4, 128, 128, 394)
+-----------------------------------
+-----------------------------------
+┌─────────────────┬───────┬────────┐
+│           Phase │ Epoch │   Loss │
+├─────────────────┼───────┼────────┤
+│ TrainingPhase() │   1.0 │ 0.0601 │
+└─────────────────┴───────┴────────┘
+┌───────────────────┬───────┬─────────┐
+│             Phase │ Epoch │    Loss │
+├───────────────────┼───────┼─────────┤
+│ ValidationPhase() │   1.0 │ 0.03891 │
+└───────────────────┴───────┴─────────┘
+┌─────────────────┬───────┬─────────┐
+│           Phase │ Epoch │    Loss │
+├─────────────────┼───────┼─────────┤
+│ TrainingPhase() │   2.0 │ 0.02992 │
+└─────────────────┴───────┴─────────┘
+┌───────────────────┬───────┬─────────┐
+│             Phase │ Epoch │    Loss │
+├───────────────────┼───────┼─────────┤
+│ ValidationPhase() │   2.0 │ 0.01883 │
+└───────────────────┴───────┴─────────┘
+┌─────────────────┬───────┬─────────┐
+│           Phase │ Epoch │    Loss │
+├─────────────────┼───────┼─────────┤
+│ TrainingPhase() │   3.0 │ 0.02615 │
+└─────────────────┴───────┴─────────┘
+┌───────────────────┬───────┬─────────┐
+│             Phase │ Epoch │    Loss │
+├───────────────────┼───────┼─────────┤
+│ ValidationPhase() │   3.0 │ 0.01183 │
+└───────────────────┴───────┴─────────┘
+┌─────────────────┬───────┬─────────┐
+│           Phase │ Epoch │    Loss │
+├─────────────────┼───────┼─────────┤
+│ TrainingPhase() │   4.0 │ 0.02719 │
+└─────────────────┴───────┴─────────┘
+┌───────────────────┬───────┬───────┐
+│             Phase │ Epoch │  Loss │
+├───────────────────┼───────┼───────┤
+│ ValidationPhase() │   4.0 │ 0.006 │
+└───────────────────┴───────┴───────┘
+┌─────────────────┬───────┬─────────┐
+│           Phase │ Epoch │    Loss │
+├─────────────────┼───────┼─────────┤
+│ TrainingPhase() │   5.0 │ 0.02537 │
+└─────────────────┴───────┴─────────┘
+┌───────────────────┬───────┬─────────┐
+│             Phase │ Epoch │    Loss │
+├───────────────────┼───────┼─────────┤
+│ ValidationPhase() │   5.0 │ 0.01453 │
+└───────────────────┴───────┴─────────┘
+┌─────────────────┬───────┬─────────┐
+│           Phase │ Epoch │    Loss │
+├─────────────────┼───────┼─────────┤
+│ TrainingPhase() │   6.0 │ 0.02135 │
+└─────────────────┴───────┴─────────┘
+┌───────────────────┬───────┬─────────┐
+│             Phase │ Epoch │    Loss │
+├───────────────────┼───────┼─────────┤
+│ ValidationPhase() │   6.0 │ 0.00702 │
+└───────────────────┴───────┴─────────┘
+┌─────────────────┬───────┬────────┐
+│           Phase │ Epoch │   Loss │
+├─────────────────┼───────┼────────┤
+│ TrainingPhase() │   7.0 │ 0.0176 │
+└─────────────────┴───────┴────────┘
+┌───────────────────┬───────┬─────────┐
+│             Phase │ Epoch │    Loss │
+├───────────────────┼───────┼─────────┤
+│ ValidationPhase() │   7.0 │ 0.00685 │
+└───────────────────┴───────┴─────────┘
+┌─────────────────┬───────┬─────────┐
+│           Phase │ Epoch │    Loss │
+├─────────────────┼───────┼─────────┤
+│ TrainingPhase() │   8.0 │ 0.01959 │
+└─────────────────┴───────┴─────────┘
+┌───────────────────┬───────┬───────┐
+│             Phase │ Epoch │  Loss │
+├───────────────────┼───────┼───────┤
+│ ValidationPhase() │   8.0 │ 0.012 │
+└───────────────────┴───────┴───────┘
+┌─────────────────┬───────┬─────────┐
+│           Phase │ Epoch │    Loss │
+├─────────────────┼───────┼─────────┤
+│ TrainingPhase() │   9.0 │ 0.01783 │
+└─────────────────┴───────┴─────────┘
+┌───────────────────┬───────┬─────────┐
+│             Phase │ Epoch │    Loss │
+├───────────────────┼───────┼─────────┤
+│ ValidationPhase() │   9.0 │ 0.00992 │
+└───────────────────┴───────┴─────────┘
+┌─────────────────┬───────┬─────────┐
+│           Phase │ Epoch │    Loss │
+├─────────────────┼───────┼─────────┤
+│ TrainingPhase() │  10.0 │ 0.01618 │
+└─────────────────┴───────┴─────────┘
+┌───────────────────┬───────┬─────────┐
+│             Phase │ Epoch │    Loss │
+├───────────────────┼───────┼─────────┤
+│ ValidationPhase() │  10.0 │ 0.03241 │
+└───────────────────┴───────┴─────────┘
+┌─────────────────┬───────┬─────────┐
+│           Phase │ Epoch │    Loss │
+├─────────────────┼───────┼─────────┤
+│ TrainingPhase() │  11.0 │ 0.01662 │
+└─────────────────┴───────┴─────────┘
+┌───────────────────┬───────┬─────────┐
+│             Phase │ Epoch │    Loss │
+├───────────────────┼───────┼─────────┤
+│ ValidationPhase() │  11.0 │ 0.00855 │
+└───────────────────┴───────┴─────────┘
+┌─────────────────┬───────┬─────────┐
+│           Phase │ Epoch │    Loss │
+├─────────────────┼───────┼─────────┤
+│ TrainingPhase() │  12.0 │ 0.01552 │
+└─────────────────┴───────┴─────────┘
+┌───────────────────┬───────┬─────────┐
+│             Phase │ Epoch │    Loss │
+├───────────────────┼───────┼─────────┤
+│ ValidationPhase() │  12.0 │ 0.01154 │
+└───────────────────┴───────┴─────────┘
+┌─────────────────┬───────┬─────────┐
+│           Phase │ Epoch │    Loss │
+├─────────────────┼───────┼─────────┤
+│ TrainingPhase() │  13.0 │ 0.01461 │
+└─────────────────┴───────┴─────────┘
+┌───────────────────┬───────┬─────────┐
+│             Phase │ Epoch │    Loss │
+├───────────────────┼───────┼─────────┤
+│ ValidationPhase() │  13.0 │ 0.00843 │
+└───────────────────┴───────┴─────────┘
+┌─────────────────┬───────┬─────────┐
+│           Phase │ Epoch │    Loss │
+├─────────────────┼───────┼─────────┤
+│ TrainingPhase() │  14.0 │ 0.01501 │
+└─────────────────┴───────┴─────────┘
+┌───────────────────┬───────┬─────────┐
+│             Phase │ Epoch │    Loss │
+├───────────────────┼───────┼─────────┤
+│ ValidationPhase() │  14.0 │ 0.00699 │
+└───────────────────┴───────┴─────────┘
+┌─────────────────┬───────┬─────────┐
+│           Phase │ Epoch │    Loss │
+├─────────────────┼───────┼─────────┤
+│ TrainingPhase() │  15.0 │ 0.01292 │
+└─────────────────┴───────┴─────────┘
+┌───────────────────┬───────┬─────────┐
+│             Phase │ Epoch │    Loss │
+├───────────────────┼───────┼─────────┤
+│ ValidationPhase() │  15.0 │ 0.00835 │
+└───────────────────┴───────┴─────────┘
+┌─────────────────┬───────┬────────┐
+│           Phase │ Epoch │   Loss │
+├─────────────────┼───────┼────────┤
+│ TrainingPhase() │  16.0 │ 0.0148 │
+└─────────────────┴───────┴────────┘
+┌───────────────────┬───────┬─────────┐
+│             Phase │ Epoch │    Loss │
+├───────────────────┼───────┼─────────┤
+│ ValidationPhase() │  16.0 │ 0.01799 │
+└───────────────────┴───────┴─────────┘
+┌─────────────────┬───────┬─────────┐
+│           Phase │ Epoch │    Loss │
+├─────────────────┼───────┼─────────┤
+│ TrainingPhase() │  17.0 │ 0.01323 │
+└─────────────────┴───────┴─────────┘
+┌───────────────────┬───────┬─────────┐
+│             Phase │ Epoch │    Loss │
+├───────────────────┼───────┼─────────┤
+│ ValidationPhase() │  17.0 │ 0.00562 │
+└───────────────────┴───────┴─────────┘
+┌─────────────────┬───────┬─────────┐
+│           Phase │ Epoch │    Loss │
+├─────────────────┼───────┼─────────┤
+│ TrainingPhase() │  18.0 │ 0.01304 │
+└─────────────────┴───────┴─────────┘
+┌───────────────────┬───────┬─────────┐
+│             Phase │ Epoch │    Loss │
+├───────────────────┼───────┼─────────┤
+│ ValidationPhase() │  18.0 │ 0.02717 │
+└───────────────────┴───────┴─────────┘
+┌─────────────────┬───────┬─────────┐
+│           Phase │ Epoch │    Loss │
+├─────────────────┼───────┼─────────┤
+│ TrainingPhase() │  19.0 │ 0.01124 │
+└─────────────────┴───────┴─────────┘
+┌───────────────────┬───────┬─────────┐
+│             Phase │ Epoch │    Loss │
+├───────────────────┼───────┼─────────┤
+│ ValidationPhase() │  19.0 │ 0.00407 │
+└───────────────────┴───────┴─────────┘
+┌─────────────────┬───────┬─────────┐
+│           Phase │ Epoch │    Loss │
+├─────────────────┼───────┼─────────┤
+│ TrainingPhase() │  20.0 │ 0.01345 │
+└─────────────────┴───────┴─────────┘
+┌───────────────────┬───────┬─────────┐
+│             Phase │ Epoch │    Loss │
+├───────────────────┼───────┼─────────┤
+│ ValidationPhase() │  20.0 │ 0.00822 │
+└───────────────────┴───────┴─────────┘
+Finished modeling
+model: NeuralOperators.FourierNeuralOperator{Flux.Dense{typeof(identity), Matrix{Float32}, Vector{Float32}}, Flux.Chain{Tuple{NeuralOperators.OperatorKernel{Flux.Dense{typeof(identity), Matrix{Float32}, Vector{Float32}}, NeuralOperators.OperatorConv{false, Array{ComplexF32, 3}, Int64, NeuralOperators.FourierTransform{2, Int64}}, typeof(NNlib.gelu)}, NeuralOperators.OperatorKernel{Flux.Dense{typeof(identity), Matrix{Float32}, Vector{Float32}}, NeuralOperators.OperatorConv{false, Array{ComplexF32, 3}, Int64, NeuralOperators.FourierTransform{2, Int64}}, typeof(NNlib.gelu)}, NeuralOperators.OperatorKernel{Flux.Dense{typeof(identity), Matrix{Float32}, Vector{Float32}}, NeuralOperators.OperatorConv{false, Array{ComplexF32, 3}, Int64, NeuralOperators.FourierTransform{2, Int64}}, typeof(NNlib.gelu)}, NeuralOperators.OperatorKernel{Flux.Dense{typeof(identity), Matrix{Float32}, Vector{Float32}}, NeuralOperators.OperatorConv{false, Array{ComplexF32, 3}, Int64, NeuralOperators.FourierTransform{2, Int64}}, typeof(identity)}}}, Flux.Chain{Tuple{Flux.Dense{typeof(NNlib.gelu), Matrix{Float32}, Vector{Float32}}, Flux.Dense{typeof(identity), Matrix{Float32}, Vector{Float32}}}}}(Dense(4 => 64), Chain(OperatorKernel(64 => 64, (12, 12), FourierTransform, σ=gelu, permuted=false), OperatorKernel(64 => 64, (12, 12), FourierTransform, σ=gelu, permuted=false), OperatorKernel(64 => 64, (12, 12), FourierTransform, σ=gelu, permuted=false), OperatorKernel(64 => 64, (12, 12), FourierTransform, σ=identity, permuted=false)), Chain(Dense(64 => 128, gelu), Dense(128 => 4)))
+Model saved to: /home/groups/jsuckale/liuwj/elle/dl_model/Elle_FNO.jl/examples/../model/fno_model_cpu.bson

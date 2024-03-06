@@ -1,0 +1,70 @@
+-----------------------------------
+-----------------------------------
+Number of npz files to read: 13
+-----------------------------------
+Read file: S1e-12_H1_T-25_data_train.npy.npz
+Read file: S1e-12_H1_T-26_data_train.npy.npz
+Read file: S20e-12_H20_T-25_data_train.npy.npz
+Read file: S20e-12_H20_T-26_data_train.npy.npz
+Read file: S70e-12_H50_T-24_data_train.npy.npz
+Read file: S70e-12_H50_T-25_data_train.npy.npz
+Read file: S70e-12_H50_T-26_data_train.npy.npz
+Read file: S70e-12_H60_T-24_data_train.npy.npz
+Read file: S70e-12_H60_T-25_data_train.npy.npz
+Read file: S70e-12_H60_T-26_data_train.npy.npz
+Read file: S70e-12_H70_T-24_data_train.npy.npz
+Read file: S70e-12_H70_T-25_data_train.npy.npz
+Read file: S70e-12_H70_T-26_data_train.npy.npz
+Done reading all data
+-----------------------------------
+Done shuffling all data
+Split train and test sets at a ratio of 0.8
+Known data size: train(4, 128, 128, 250)
+                 test(4, 128, 128, 62)
+Prediction data size: train(4, 128, 128, 250)
+                      test(4, 128, 128, 62)
+-----------------------------------
+-----------------------------------
+┌─────────────────┬───────┬─────────┐
+│           Phase │ Epoch │    Loss │
+├─────────────────┼───────┼─────────┤
+│ TrainingPhase() │   1.0 │ 0.15165 │
+└─────────────────┴───────┴─────────┘
+┌───────────────────┬───────┬─────────┐
+│             Phase │ Epoch │    Loss │
+├───────────────────┼───────┼─────────┤
+│ ValidationPhase() │   1.0 │ 0.04733 │
+└───────────────────┴───────┴─────────┘
+┌─────────────────┬───────┬─────────┐
+│           Phase │ Epoch │    Loss │
+├─────────────────┼───────┼─────────┤
+│ TrainingPhase() │   2.0 │ 0.04862 │
+└─────────────────┴───────┴─────────┘
+┌───────────────────┬───────┬─────────┐
+│             Phase │ Epoch │    Loss │
+├───────────────────┼───────┼─────────┤
+│ ValidationPhase() │   2.0 │ 0.03679 │
+└───────────────────┴───────┴─────────┘
+┌─────────────────┬───────┬─────────┐
+│           Phase │ Epoch │    Loss │
+├─────────────────┼───────┼─────────┤
+│ TrainingPhase() │   3.0 │ 0.04217 │
+└─────────────────┴───────┴─────────┘
+┌───────────────────┬───────┬─────────┐
+│             Phase │ Epoch │    Loss │
+├───────────────────┼───────┼─────────┤
+│ ValidationPhase() │   3.0 │ 0.05197 │
+└───────────────────┴───────┴─────────┘
+┌─────────────────┬───────┬─────────┐
+│           Phase │ Epoch │    Loss │
+├─────────────────┼───────┼─────────┤
+│ TrainingPhase() │   4.0 │ 0.03913 │
+└─────────────────┴───────┴─────────┘
+┌───────────────────┬───────┬─────────┐
+│             Phase │ Epoch │    Loss │
+├───────────────────┼───────┼─────────┤
+│ ValidationPhase() │   4.0 │ 0.01902 │
+└───────────────────┴───────┴─────────┘
+Finished modeling
+model: NeuralOperators.FourierNeuralOperator{Flux.Dense{typeof(identity), Matrix{Float32}, Vector{Float32}}, Flux.Chain{Tuple{NeuralOperators.OperatorKernel{Flux.Dense{typeof(identity), Matrix{Float32}, Vector{Float32}}, NeuralOperators.OperatorConv{false, Array{ComplexF32, 3}, Int64, NeuralOperators.FourierTransform{2, Int64}}, typeof(NNlib.gelu)}, NeuralOperators.OperatorKernel{Flux.Dense{typeof(identity), Matrix{Float32}, Vector{Float32}}, NeuralOperators.OperatorConv{false, Array{ComplexF32, 3}, Int64, NeuralOperators.FourierTransform{2, Int64}}, typeof(NNlib.gelu)}, NeuralOperators.OperatorKernel{Flux.Dense{typeof(identity), Matrix{Float32}, Vector{Float32}}, NeuralOperators.OperatorConv{false, Array{ComplexF32, 3}, Int64, NeuralOperators.FourierTransform{2, Int64}}, typeof(NNlib.gelu)}, NeuralOperators.OperatorKernel{Flux.Dense{typeof(identity), Matrix{Float32}, Vector{Float32}}, NeuralOperators.OperatorConv{false, Array{ComplexF32, 3}, Int64, NeuralOperators.FourierTransform{2, Int64}}, typeof(identity)}}}, Flux.Chain{Tuple{Flux.Dense{typeof(NNlib.gelu), Matrix{Float32}, Vector{Float32}}, Flux.Dense{typeof(identity), Matrix{Float32}, Vector{Float32}}}}}(Dense(4 => 64), Chain(OperatorKernel(64 => 64, (12, 12), FourierTransform, σ=gelu, permuted=false), OperatorKernel(64 => 64, (12, 12), FourierTransform, σ=gelu, permuted=false), OperatorKernel(64 => 64, (12, 12), FourierTransform, σ=gelu, permuted=false), OperatorKernel(64 => 64, (12, 12), FourierTransform, σ=identity, permuted=false)), Chain(Dense(64 => 128, gelu), Dense(128 => 4)))
+Model saved to: /home/groups/jsuckale/liuwj/elle/dl_model/Elle_FNO.jl/examples/../model/fno_model_cpu.bson
