@@ -122,7 +122,7 @@ function data_loader(data_path, num_input_params, num_timesteps, grid_size,
     # println("Final ")    
 end
 
-function train(data_path, save_path)
+function train(data_path, model_dimension)
     # Define the hyperparameters
     learning_rate = 0.001
     scheduler_step = 30
@@ -138,7 +138,7 @@ function train(data_path, save_path)
     num_input_params = 4
     num_timesteps = 25
     num_output_params = 1
-    grid_size = 128
+    grid_size = model_dimension
     train_data_ratio = 0.8
 
     step_known = 1      # num of steps whose info is known, i.e. step 1-3 are given
@@ -220,7 +220,7 @@ end
 #         help = "Path to the strain rate data"
 #         default = "./../data/"
 #         arg_type = String
-#         "--save_path"
+#         "--model_dimension"
 #         help = "Path to save the model"
 #         default = "model.pth"
 #         arg_type = String
@@ -232,7 +232,7 @@ end
 # if abspath(PROGRAM_FILE) == @__FILE__
 #     s = setup_argparse()
 #     args = parse_args(s) # Use the correct function from ArgParse.jl
-#     learner = train(args["data_path"], args["save_path"])
+#     learner = train(args["data_path"], args["model_dimension"])
 #     loss = learner.cbstate.metricsepoch[ValidationPhase()][:Loss].values[end]
 #     @test loss < 0.1
 #     println("Finished modeling")
