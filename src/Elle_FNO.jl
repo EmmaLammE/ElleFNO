@@ -11,7 +11,7 @@ export load_data
 export train
 export get_model
 
-function load_data(data_path, num_input_params=4, num_timesteps=24, grid_size=128,
+function load_data(data_path; num_input_params=4, num_timesteps=24, grid_size=128,
                    step_known=1, step_predict=1)
     files = readdir(data_path)
     
@@ -122,7 +122,7 @@ function data_loader(data_path, num_input_params, num_timesteps, grid_size,
     # println("Final ")    
 end
 
-function train(data_path, model_dimension)
+function train(data_path, model_dimension, epochs_input)
     # Define the hyperparameters
     learning_rate = 0.001
     scheduler_step = 30
@@ -132,7 +132,7 @@ function train(data_path, model_dimension)
     mode2 = 12
     η₀ = 1.0f-3
     λ = 1.0f-4
-    epochs = 20
+    epochs = epochs_input
     cuda = true
 
     num_input_params = 4
@@ -184,17 +184,22 @@ function train(data_path, model_dimension)
     return learner
 end
 
-function get_model(input_path = "../model/")
+function get_model(; input_path = "../model/",model_name="")
 
     model_path = joinpath(@__DIR__, input_path)
-    model_file = readdir(model_path)[end]
-
+    if (model_name=="")
+        model_file = readdir(model_path)[end]
+    else
+        model_file = model_name
+    end
     # data =  BSON.load(joinpath(model_path, model_file), @__MODULE__)
     # for key in keys(data)
     #     println(key)
     # end
-    println("Reading model: ",joinpath(model_path, model_file))
-    return BSON.load(joinpath(model_path, model_file), @__MODULE__)[:model]
+    model_path = joinpath(model_path, model_file)
+    BSON.@load model_path fno_model
+    return fno_model
+    # return BSON.load(joinpath(model_path, model_file), @__MODULE__)[:model]
 end
 
 # function model_to_cpu!(component)

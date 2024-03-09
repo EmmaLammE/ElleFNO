@@ -1,18 +1,18 @@
 include("../src/Elle_FNO.jl")
 using .Elle_FNO
 using Plots
-# using CUDA
+using CUDA
 using Flux, NeuralOperators
 using NPZ
 
 
 # load the FNO model
-model = Elle_FNO.get_model()
+model = Elle_FNO.get_model(model_name = "fno_model_gpu_Nx128.bson")
 
 # load validation data
 data_path = "../data/validate_data/"
 # 4 is number of input params: grainsize, strain rate, temp, pressure
-valid_data = load_data(data_path,4); 
+valid_data = load_data(data_path,num_input_params=4); 
 valid_data_known, valid_data_predict = valid_data;
 # /home/users/liuwj/.julia/scratchspaces/124859b0-ceae-595e-8997-d05f6a7a8dfe/datadeps/DoublePendulumChaotic/
 
@@ -54,9 +54,10 @@ function cuda_to_cpu!(obj)
             println("  field_val: ", typeof(field_val))
             if field_val isa CUDA.CuArray
                 println("  converting cuda array of size: ",size(field_val))
+                
                 # new_val = Array(field_val) # Convert CUDA array to CPU array
                 # cpu_array = Array{Float32}(undef, size(field_val)...)
-                CUDA.copyto!(cpu_array, field_val)
+                # CUDA.copyto!(cpu_array, field_val)
                 println("  converted cuda array")
                 # setfield!(obj, field, new_val)
             elseif !(field_val isa Number) && !(field_val isa Symbol) && !(field_val isa AbstractString)
@@ -99,4 +100,4 @@ function squeeze( A :: AbstractArray )
     return reshape( A, keepdims );
   end;
 
-cuda_to_cpu!(model)
+# cuda_to_cpu!(model)

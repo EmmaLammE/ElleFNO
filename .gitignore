@@ -17,9 +17,6 @@
 *.npz
 *.bson
 
-# ignore output folder
-./data/
-
 .DS_Store
 ._.DS_Store
 

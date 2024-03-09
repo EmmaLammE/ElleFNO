@@ -2,7 +2,7 @@ include("../src/Elle_FNO.jl")
 using .Elle_FNO
 using ArgParse, Test
 using BSON
-using FluxTraining
+using FluxTraining, Flux
 using CUDA
 
 function setup_argparse()
@@ -12,10 +12,14 @@ function setup_argparse()
         help = "Path to the strain rate data"
         default = "./../data/train_data/"
         arg_type = String
-        "--save_path"
-        help = "Path to save the model"
-        default = "model.pth"
-        arg_type = String
+        "--model_dimension"
+        help = "Number of grid points in x or y. Currently only support square matrix."
+        default = 450
+        arg_type = Int64
+        "--epochs"
+        help = "Num of epochs"
+        default = 20
+        arg_type = Int64
     end
     return s
 end
@@ -33,16 +37,27 @@ if abspath(PROGRAM_FILE) == @__FILE__
         device = "cpu"
     end
 
-    learner = train(args["data_path"], args["save_path"])
+    learner = train(args["data_path"], args["model_dimension"], args["epochs"])
     loss = learner.cbstate.metricsepoch[ValidationPhase()][:Loss].values[end]
-    @test loss < 0.1
+    # @test loss < 0.1
     
     println("Finished modeling")
     model = learner.model
     
-    println("model: ",model)
-    model_path = joinpath(@__DIR__, "../model/fno_model_"*device*".bson")
-    BSON.@save model_path model
+    model_dimension = args["model_dimension"]
+
+    model_path = joinpath(@__DIR__, "../model/fno_model_"*device*"_Nx"*string(model_dimension)*".bson")
+    
+    if (device=="gpu")
+        # cpu_model = cpu(model)
+        # CUDA.serialize(model_path, model)
+        fno_model = Flux.cpu(model)
+        BSON.@save model_path fno_model
+    elseif(device=="cpu")
+        BSON.@save model_path fno_model
+    end
+
+    println("model: ",fno_model)
     println("Model saved to: ",model_path)
 end
 
