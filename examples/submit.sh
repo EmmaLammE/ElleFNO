@@ -1,12 +1,13 @@
 #!/bin/bash
-#SBATCH --job-name=cpu256
-#SBATCH --time=3-00:00:00
+#SBATCH --job-name=gpu256
+#SBATCH --time=1-00:00:00
 #SBATCH --mem=100GB
 #SBATCH -p serc
 #SBATCH -c 20
+#SBATCH --gpus 4
 #SBATCH --ntasks=8
-#SBATCH -o ./../sbatch_output_logs/out_test.%j.out
-#SBATCH -e ./../sbatch_output_logs/err_test.%j.err
+#SBATCH -o ./../sbatch_output_logs/out_gpu256.%j.out
+#SBATCH -e ./../sbatch_output_logs/err_gpu256.%j.err
 
 # below you run/call your code, load modules, python, Matlab, R, etc.
 # and do any other scripting you want

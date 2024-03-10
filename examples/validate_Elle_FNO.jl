@@ -7,12 +7,13 @@ using NPZ
 
 
 # load the FNO model
-model = Elle_FNO.get_model(model_name = "fno_model_gpu_Nx128.bson")
+model = Elle_FNO.get_model(model_name = "fno_model_gpu_Nx450.bson")
+model = Flux.gpu(model)
 
 # load validation data
-data_path = "../data/validate_data/"
+data_path = "../data/validate_data/grid450/"
 # 4 is number of input params: grainsize, strain rate, temp, pressure
-valid_data = load_data(data_path,num_input_params=4); 
+valid_data = load_data(data_path,num_input_params=4,grid_size=450); 
 valid_data_known, valid_data_predict = valid_data;
 # /home/users/liuwj/.julia/scratchspaces/124859b0-ceae-595e-8997-d05f6a7a8dfe/datadeps/DoublePendulumChaotic/
 
@@ -20,6 +21,7 @@ valid_data_known, valid_data_predict = valid_data;
 prediction = Array{Float32}(undef, size(valid_data_known));
 # # assign the initial step
 prediction[:, :, :, 1] .= Array(view(valid_data_known, :, :, :, 1));
+valid_data_known = CuArray(valid_data_known)
 
 # # predict the next step using the previous step
 for i in 2:size(valid_data_known)[end]

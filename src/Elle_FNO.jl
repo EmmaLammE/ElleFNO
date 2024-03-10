@@ -11,7 +11,7 @@ export load_data
 export train
 export get_model
 
-function load_data(data_path; num_input_params=4, num_timesteps=24, grid_size=128,
+function load_data(data_path; num_input_params=4, num_timesteps=24, grid_size=450,
                    step_known=1, step_predict=1)
     files = readdir(data_path)
     
